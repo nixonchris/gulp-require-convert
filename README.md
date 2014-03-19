@@ -5,7 +5,7 @@
 
 ## Overview
 
-Require-convert will convert CommonJs files that look like this:
+Require-convert will take CommonJs files that look like this:
 
 ```javascript
 var foo = require('foo');
