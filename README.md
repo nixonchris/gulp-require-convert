@@ -20,7 +20,7 @@ define(function (require, exports, module) {
     module.exports = foo;
 });
 ```
-This plugin uses the RequireJS Optimizer's internal convert function for converting modules. This function will only wrap your file in a define call if it does not already have a define call AND if it appears to be a CommonJS module.
+This plugin uses the RequireJS Optimizer's internal convert function for converting modules. This function will only wrap your file in a define if it does not already have a define AND if it appears to be a CommonJS module.
 
 ## Usage
 
